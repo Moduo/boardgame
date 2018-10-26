@@ -11,14 +11,6 @@
         </div>
         <hr>
         <div class="col-10 offset-1">
-            <h1>Add player</h1>
-            <form method="post" action="#">
-                <input type="text" name="playername">
-                <button type="submit">Submit</button>
-
-            </form>
-            <h4>Users</h4>
-            <ul class="list-group">
                 <?php
                 foreach ($results as $items) {
                     foreach ($items as $item => $value) {

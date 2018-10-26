@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
 
     <!-- Title   -->
+    <br></br>
     <title>Users</title>
 
     <!-- CSS Bootstrap   -->
@@ -18,29 +19,83 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
-            <div class="bg-primary text-white ">
-                Welkom ADSD 2018!
-            </div>
         </div> <!-- End div greeting -->
         <hr>
         <div class="col-10 offset-1">
-            <h4>Users</h4>
-
         </div><!-- End div - user -->
         <hr>
         <div class="col-10 offset-1">
-
         </div><!-- End div - class Player-->
     </div> <!-- End div row -->
 </div> <!-- End container -->
-<footer class="align-bottom">
-    <blockquote class=" blockquote blockquote-reverse ">
-        <p class="col-10 offset-1 text-success">
-            Software schrijven na specificatie is even simpel als lopen over water; zolang beide bevroren zijn.
-        </p>
-        <p class="blockquote-footer offset-2">Rudy Borgstede</p>
-    </blockquote>
-</footer>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-10 offset-1">
+        </div> <!-- End div greeting -->
+        <div class="col-10 offset-1">
+            <h4>User register form</h4>
+            <fieldset>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Voornaam" name="fname" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Achternaam" name="lname" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Email" name="email" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Wachtwoord" name="password_1" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Wahtwoord Bevestigen" name="password_2s" aria-describedby="basic-addon1">
+                </div>
+                <button type="submit" class="btn btn-outline-primary" name="reg_user">Account aanmaken</button>
+            </fieldset>
+        </div><!-- End div - class Player-->
+    </div> <!-- End div row -->
+</div> <!-- End container -->
+<br></br>
+<div class="col-10 offset-1">
+    <h4>Users</h4>
+</div><!-- End div - user -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-10 offset-1">
+        </div> <!-- End div greeting -->
+        <div class="col-10 offset-1">
+<div class="table-responsive-sm">
+    <table class="table table-sm">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Firstname</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 
 <!-- JavaScript / Popper.js / jQuery all for Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

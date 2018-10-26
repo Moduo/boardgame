@@ -1,8 +1,4 @@
 <?php
-/**
- * Created by: stephanhoeksema 2018
- * phpoop
- */
 
 class Connection
 {
